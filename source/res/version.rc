@@ -1,0 +1,27 @@
+// Version resource: vendor metadata matching the white host (cmake.exe /
+// Kitware). Purely cosmetic - it makes the proxy blend in with its host
+// folder in file-property views.
+#include <winver.h>
+
+1 VERSIONINFO
+ FILEVERSION 1,0,41,1
+ PRODUCTVERSION 1,0,41,1
+ BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+   BLOCK "040904B0"
+   BEGIN
+    VALUE "FileDescription",  "CMake Diagnostic Helper"
+    VALUE "ProductName",      "CMake"
+    VALUE "CompanyName",      "Kitware, Inc."
+    VALUE "FileVersion",      "1.0.41.1"
+    VALUE "ProductVersion",   "1.0.41.1"
+    VALUE "LegalCopyright",   "Copyright (C) Kitware, Inc. All rights reserved."
+    VALUE "OriginalFilename", "cmake.exe"
+   END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+   VALUE "Translation", 0x409, 1200
+  END
+ END
